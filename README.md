@@ -10,7 +10,6 @@ Each project covers data preprocessing, model building, evaluation, and model se
 
 ## 📚 Table of Contents
 - [Overview](#overview)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [How to Use](#how-to-use)
 - [Models Used](#models-used)
@@ -31,37 +30,6 @@ This project is focused on:
 Both problems are tackled using Machine Learning algorithms, and the models are saved for easy deployment.
 
 ---
-
-## 📂 Project Structure
-
-```plaintext
-├── housing_price_prediction/
-│   └── house.csv                 # Dataset for house price prediction
-│
-├── wine_classification/
-│   └── wine.csv                  # Dataset for wine quality classification
-│
-├── __pycache__/                   # Python cache files
-│
-├── evaluation.py                  # Script for evaluating models
-├── house_price.ipynb              # EDA + Model training for house price
-├── house_price_pred.ipynb         # Final house price model and predictions
-├── wine_quality.ipynb             # EDA + Model training for wine quality
-├── wine_quality_pred.ipynb        # Final wine quality model and predictions
-│
-├── linear_model.pkl               # Saved Linear Regression model
-├── ridge_model.pkl                # Saved Ridge Regression model
-├── q_gradient.pkl                 # Saved Gradient Boosting model (wine)
-├── q_random_forest_model.pkl      # Saved Random Forest model (wine)
-├── quality_naive.pkl              # Saved Naive Bayes model
-├── quality_stacking.pkl           # Saved Stacking classifier model
-│
-├── scaler.pkl                     # Feature scaler for house price data
-├── scaler_q.pkl                   # Feature scaler for wine data
-│
-├── test_model.py                  # Script to test house price models
-├── test_model_wine.py             # Script to test wine quality models
-│
 
 
 ## Installation
